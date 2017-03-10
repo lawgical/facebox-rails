@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors      = ["beawesomeinstead"]
   s.email        = "graf.otodrakula@gmail.com"
   s.homepage     = "http://github.com/bai/facebox-rails"
-  s.summary      = "Use Facebox with Rails 3"
-  s.description  = "This gem provides Facebox for your Rails 3 application."
+  s.summary      = "Use Facebox with Rails 5"
+  s.description  = "This gem provides Facebox for your Rails 5 application."
 
   s.required_rubygems_version = ">= 1.3.6"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.rubyforge_project = '[none]'
 
-  s.add_dependency "railties", "~> 4.0"
+  s.add_dependency "railties", "~> 5.0"
   s.add_dependency "thor",     "~> 0.14"
-  s.add_development_dependency "rails",   "~> 4.0"
+  s.add_development_dependency "rails",   "~> 5.0"
 end
